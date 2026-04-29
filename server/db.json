@@ -1,0 +1,18 @@
+{
+  "incidents": [
+    { "id": "1", "type": "FLASH FLOOD", "location": "SECTOR 12, ZONE A", "time": "5 MIN AGO", "status": "critical", "description": "Water level rising rapidly. Immediate evacuation needed.", "verified": true },
+    { "id": "2", "type": "STRUCTURAL DAMAGE", "location": "WEST SIDE BRIDGE", "time": "12 MIN AGO", "status": "high", "description": "Crack detected in main pillar.", "verified": true },
+    { "id": "3", "type": "ROAD BLOCK", "location": "HIGHWAY 42", "time": "1 HOUR AGO", "status": "medium", "description": "Debris from landslide blocking both lanes.", "verified": false }
+  ],
+  "supplies": [
+    { "id": "1", "name": "MEDICAL KITS", "quantity": "142 UNITS", "status": "available", "category": "Medical" },
+    { "id": "2", "name": "EMERGENCY RATIONS", "quantity": "12 UNITS", "status": "low", "category": "Food" },
+    { "id": "3", "name": "POTABLE WATER", "quantity": "0 UNITS", "status": "out", "category": "Supplies" }
+  ],
+  "volunteers": [
+    { "id": "1", "name": "ALEX RIVERA", "role": "MEDICAL PARAMEDIC", "status": "active", "location": "ZONE 4" },
+    { "id": "2", "name": "SARAH CHEN", "role": "SEARCH & RESCUE", "status": "busy", "location": "ZONE 12" },
+    { "id": "3", "name": "MIKE JOHNSON", "role": "LOGISTICS", "status": "offline", "location": "HQ" }
+  ],
+  "help_seekers": []
+}
